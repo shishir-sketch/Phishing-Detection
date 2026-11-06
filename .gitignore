@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+build/
+dist/
+
+# data & artifacts (keep the folders, not the contents)
+data/*
+!data/README.md
+models/*
+!models/.gitkeep
+results/*
+!results/.gitkeep
+.DS_Store
